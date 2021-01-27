@@ -20,23 +20,23 @@ public class BinaryConverter {
 
         String fullBinary = "";
         for (int i = 0; i < (16 - binary.length()); i++)
-            {
-                fullBinary += 0;
-            }
+        {
+            fullBinary += 0;
+        }
         fullBinary += binary;
 
         if (!negative)
             System.out.println(fullBinary);
 
-            String negFullBinary = "";
-                for (int i = 0; i < fullBinary.length(); i++) {
+        String negFullBinary = "";
+        for (int i = 0; i < fullBinary.length(); i++) {
 
-                    if (fullBinary.charAt(i) == '0')
-                        negFullBinary += '1';
-                    else
-                        negFullBinary += '0';
-                }
-            if (negative)
-                System.out.println(negFullBinary);
+            if (fullBinary.charAt(i) == '0')
+                negFullBinary += '1';
+            else
+                negFullBinary += '0';
+        }
+        if (negative)
+            System.out.println(negFullBinary);
     }
 }
