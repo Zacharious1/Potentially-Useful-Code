@@ -1,0 +1,5 @@
+
+Pinging www.vmi.edu [18.215.61.107] with 32 bytes of data:
+Request timed out.
+Request timed out.
+Request timed out.
